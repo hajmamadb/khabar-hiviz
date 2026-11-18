@@ -1,0 +1,203 @@
+/* خبریاب هوشمند - استایل صفحه مدیریت */
+.khv-wrap {
+	max-width: 1100px;
+	margin: 20px 20px 40px 0;
+}
+
+.khv-box {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+	padding: 16px 20px;
+	margin-bottom: 16px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+.khv-box h2 {
+	margin: 0 0 12px;
+	font-size: 15px;
+}
+
+.khv-box h3 {
+	margin: 18px 0 8px;
+	font-size: 13px;
+}
+
+.khv-row {
+	display: flex;
+	gap: 24px;
+	flex-wrap: wrap;
+	margin-bottom: 12px;
+}
+
+.khv-field {
+	flex: 1 1 280px;
+	max-width: 480px;
+}
+
+.khv-field label {
+	display: block;
+	font-weight: 600;
+	margin-bottom: 4px;
+}
+
+.khv-field .description,
+.khv-field .desc {
+	color: #646970;
+	font-size: 12px;
+	margin-top: 4px;
+}
+
+.khv-field input[type="text"],
+.khv-field input[type="url"],
+.khv-field input[type="number"],
+.khv-field select {
+	width: 100%;
+}
+
+.khv-field-test {
+	flex: 0 1 200px;
+}
+
+.khv-test-result {
+	margin-top: 8px;
+	font-size: 13px;
+}
+
+.khv-test-result.ok {
+	color: #1e7e34;
+}
+
+.khv-test-result.err {
+	color: #b91c1c;
+}
+
+table.khv-table {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 10px 0;
+}
+
+table.khv-table th,
+table.khv-table td {
+	padding: 8px 6px;
+	border-bottom: 1px solid #f0f0f1;
+	text-align: right;
+	vertical-align: middle;
+}
+
+table.khv-table th {
+	font-weight: 600;
+	background: #f6f7f7;
+}
+
+table.khv-table input[type="text"],
+table.khv-table input[type="url"],
+table.khv-table select {
+	width: 100%;
+}
+
+.khv-cell-ck,
+.khv-cell-num,
+.khv-cell-del {
+	text-align: center;
+}
+
+.khv-cell-ck input {
+	width: 18px;
+	height: 18px;
+	margin: 0;
+}
+
+.khv-cell-num input {
+	width: 70px;
+}
+
+.khv-cell-del a {
+	color: #b91c1c;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.khv-cell-del a:hover {
+	color: #8a151b;
+}
+
+.khv-log {
+	max-height: 340px;
+	overflow: auto;
+	border: 1px solid #f0f0f1;
+	border-radius: 4px;
+	background: #fcfcfc;
+}
+
+.khv-log-row {
+	padding: 5px 12px;
+	border-bottom: 1px solid #f6f7f7;
+	font-size: 12px;
+	line-height: 1.7;
+}
+
+.khv-log-row .t {
+	color: #8c8f94;
+	margin-inline-start: 10px;
+	white-space: nowrap;
+}
+
+.khv-lvl-info {
+	color: #1e7e34;
+}
+
+.khv-lvl-warn {
+	color: #b45309;
+}
+
+.khv-lvl-error {
+	color: #b91c1c;
+}
+
+.khv-run-msg {
+	margin-inline-start: 10px;
+	font-size: 13px;
+}
+
+.khv-cell-test {
+	text-align: center;
+}
+
+.khv-feed-test-msg {
+	display: block;
+	margin-top: 6px;
+	font-size: 11px;
+	line-height: 1.5;
+	text-align: right;
+}
+
+.khv-feed-test-msg.ok {
+	color: #1e7e34;
+}
+
+.khv-feed-test-msg.err {
+	color: #b91c1c;
+}
+
+.khv-queue-status {
+	font-size: 13px;
+	margin: 4px 0 10px;
+}
+
+.khv-control-row {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	align-items: center;
+}
+
+.khv-inline-form {
+	display: inline-block;
+	margin: 0;
+}
+
+.khv-inline-form button {
+	vertical-align: middle;
+}
